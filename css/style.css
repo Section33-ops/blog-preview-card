@@ -1,6 +1,7 @@
 body {
   background-color: hsl(47, 88%, 63%);
   font-family: "Figtree", "Arial";
+  font-size: 16px;
 }
 
 main {
@@ -17,7 +18,7 @@ main {
   box-shadow: 7px 7px black;
   margin-bottom: 50px;
   text-align: center;
-  width: 500px;
+  width: 350px;
 }
 
 .illust_img img {
@@ -34,6 +35,27 @@ main {
 
 .container_content {
   text-align: left;
+}
+
+.publish_date {
+  font-weight: 500;
+  color: hsl(0, 0%, 7%);
+}
+
+.title {
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
+}
+
+.para_desc {
+  font-weight: 500;
+  color: hsl(0, 0%, 42%);
+}
+
+.author {
+  text-align: left;
+  font-weight: 800;
+  color: hsl(0, 0%, 7%);
 }
 
 .attribution {
