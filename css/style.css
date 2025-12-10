@@ -1,5 +1,12 @@
 body {
   background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", "Arial";
+}
+
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 }
 
 .main_container {
@@ -10,10 +17,12 @@ body {
   box-shadow: 7px 7px black;
   margin-bottom: 50px;
   text-align: center;
+  width: 500px;
 }
 
 .illust_img img {
   border-radius: 10px;
+  width: 100%;
 }
 
 .learning_tag {
@@ -21,6 +30,10 @@ body {
   border: 1px;
   background-color: hsl(47, 88%, 63%);
   width: 80px;
+}
+
+.container_content {
+  text-align: left;
 }
 
 .attribution {
