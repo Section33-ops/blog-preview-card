@@ -53,9 +53,15 @@ main {
 }
 
 .author {
-  text-align: left;
   font-weight: 800;
   color: hsl(0, 0%, 7%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author img {
+  width: 32px;
 }
 
 .attribution {
